@@ -4,10 +4,8 @@ import readline from 'readline'
 
 // criando as configurações para o OpenAI
 const configuration = new Configuration({
-  //organization: 'org-7z360r3sBXxM83pWzRPUgBkQ',
-  organization: 'org-t6BwUzuqlcGVSy5gFfQdmWs8',
-  //apiKey: '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'
-  apiKey: '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'
+  organization: 'SEU IDENTIFICADOR DA ORGANIZAÇÃO',
+  apiKey: 'SUA SECRET KEY'
 })
 
 // criando uma nova instância da OpenAI API
